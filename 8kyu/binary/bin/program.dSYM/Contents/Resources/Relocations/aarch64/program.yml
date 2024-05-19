@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adrianocalzada/Programming/codigos/binary/bin/program'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _stupidBinary, symObjAddr: 0x0, symBinAddr: 0x100003E04, symSize: 0xC0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _stupidBinary, symObjAddr: 0x0, symBinAddr: 0x100003E04, symSize: 0xC0 }
+  - { offsetInCU: 0x9D, offset: 0x9D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC0, symBinAddr: 0x100003EC4, symSize: 0xB0 }
+...
