@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adrianocalzada/Programming/codigos/endsWith/bin/program'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _stringSize, symObjAddr: 0x0, symBinAddr: 0x100003D4C, symSize: 0x58 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _stringSize, symObjAddr: 0x0, symBinAddr: 0x100003D4C, symSize: 0x58 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _endsWith, symObjAddr: 0x58, symBinAddr: 0x100003DA4, symSize: 0xF0 }
+  - { offsetInCU: 0xF3, offset: 0xF3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x148, symBinAddr: 0x100003E94, symSize: 0xCC }
+...
